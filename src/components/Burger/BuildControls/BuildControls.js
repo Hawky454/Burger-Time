@@ -11,6 +11,15 @@ const controls = [
 
 const BuildControls = props => (
   <div className={styles.buildControls}>
+    <h2
+      style={{
+        fontFamily: "'Courier New', Courier, monospace",
+        color: '#77110a',
+        fontWeight: 'bolder'
+      }}
+    >
+      Current Price: {props.price}
+    </h2>
     {controls.map(control => (
       <BuildControl
         key={control.label}
