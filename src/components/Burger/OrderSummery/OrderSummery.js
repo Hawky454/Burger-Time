@@ -6,7 +6,7 @@ const OrderSummary = props => {
     ingredientKey => {
       // the below, hardcoded would look like: "<li>Salad: 1</li>"
       return (
-        <li>
+        <li key={ingredientKey}>
           <span style={{ textTransform: 'capitalize' }}>{ingredientKey}</span>:{' '}
           {props.ingredients[ingredientKey]}
         </li>
