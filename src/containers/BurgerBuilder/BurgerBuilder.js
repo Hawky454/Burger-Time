@@ -85,7 +85,9 @@ class BurgerBuilder extends Component {
   };
 
   purchaseContinueHandler = () => {
-    alert('Under Construction!');
+    alert(
+      'Listen biatch, how many times do I have to tell you that this is under construction!'
+    );
   };
 
   render() {
