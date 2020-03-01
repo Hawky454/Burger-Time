@@ -11,7 +11,7 @@ const Burger = props => {
         );
       });
     })
-    // just adding this to make a change so I can test git
+    // ***Okay, looks like git is back in business... thank god, that scared me for a second!
     .reduce((array, element) => {
       return array.concat(element);
     }, []);
