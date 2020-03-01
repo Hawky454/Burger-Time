@@ -11,6 +11,7 @@ const Burger = props => {
         );
       });
     })
+    // just adding this to make a change so I can test git
     .reduce((array, element) => {
       return array.concat(element);
     }, []);
