@@ -4,12 +4,12 @@
   "private": true,
   "dependencies": {
     "ajv": "^6.5.5",
-    "browserslist": "^4.9.1",
-    "caniuse-lite": "^1.0.30001030",
+    "browserslist": "^4.11.0",
+    "caniuse-lite": "^1.0.30001038",
     "prop-types": "^15.6.2",
-    "react": "^16.13.0",
-    "react-dom": "^16.13.0",
-    "react-scripts": "2.0.5"
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-scripts": "^3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
