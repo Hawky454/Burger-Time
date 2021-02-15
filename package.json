@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "ajv": "^6.5.5",
-    "browserslist": "^4.11.0",
-    "caniuse-lite": "^1.0.30001038",
+    "ajv": "^6.12.2",
+    "browserslist": "^4.12.0",
+    "caniuse-lite": "^1.0.30001048",
     "prop-types": "^15.6.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
